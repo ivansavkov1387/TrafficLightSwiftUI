@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct Lights: View {
-    var colorG: UIColor = .red
+    var colorG: UIColor = .green
     var colorY: UIColor = .yellow
-    var colorR: UIColor = .green
+    var colorR: UIColor = .red
     var body: some View {
         VStack {
             Color(colorG)
@@ -27,13 +27,12 @@ struct Lights: View {
                 .clipShape(Circle())
             Spacer()
         }
-    .padding()
+        .padding()
     }
 }
 struct Lights_Previews: PreviewProvider {
     static var previews: some View {
         Lights()
-
     }
 }
 
