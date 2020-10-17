@@ -10,10 +10,11 @@
 		B418B919253A1AE10045DA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418B918253A1AE10045DA7E /* AppDelegate.swift */; };
 		B418B91B253A1AE10045DA7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418B91A253A1AE10045DA7E /* SceneDelegate.swift */; };
 		B418B91E253A1AE10045DA7E /* TrafficLightSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B418B91C253A1AE10045DA7E /* TrafficLightSwiftUI.xcdatamodeld */; };
-		B418B920253A1AE10045DA7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418B91F253A1AE10045DA7E /* ContentView.swift */; };
+		B418B920253A1AE10045DA7E /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418B91F253A1AE10045DA7E /* TrafficLight.swift */; };
 		B418B922253A1AE50045DA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B418B921253A1AE50045DA7E /* Assets.xcassets */; };
 		B418B925253A1AE50045DA7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B418B924253A1AE50045DA7E /* Preview Assets.xcassets */; };
 		B418B928253A1AE50045DA7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B418B926253A1AE50045DA7E /* LaunchScreen.storyboard */; };
+		B418B930253A20020045DA7E /* Lights.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418B92F253A20020045DA7E /* Lights.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +22,12 @@
 		B418B918253A1AE10045DA7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B418B91A253A1AE10045DA7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B418B91D253A1AE10045DA7E /* TrafficLightSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrafficLightSwiftUI.xcdatamodel; sourceTree = "<group>"; };
-		B418B91F253A1AE10045DA7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B418B91F253A1AE10045DA7E /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
 		B418B921253A1AE50045DA7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B418B924253A1AE50045DA7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B418B927253A1AE50045DA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B418B929253A1AE50045DA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B418B92F253A20020045DA7E /* Lights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lights.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				B418B918253A1AE10045DA7E /* AppDelegate.swift */,
 				B418B91A253A1AE10045DA7E /* SceneDelegate.swift */,
-				B418B91F253A1AE10045DA7E /* ContentView.swift */,
+				B418B91F253A1AE10045DA7E /* TrafficLight.swift */,
+				B418B92F253A20020045DA7E /* Lights.swift */,
 				B418B921253A1AE50045DA7E /* Assets.xcassets */,
 				B418B926253A1AE50045DA7E /* LaunchScreen.storyboard */,
 				B418B929253A1AE50045DA7E /* Info.plist */,
@@ -151,7 +154,8 @@
 			files = (
 				B418B919253A1AE10045DA7E /* AppDelegate.swift in Sources */,
 				B418B91B253A1AE10045DA7E /* SceneDelegate.swift in Sources */,
-				B418B920253A1AE10045DA7E /* ContentView.swift in Sources */,
+				B418B930253A20020045DA7E /* Lights.swift in Sources */,
+				B418B920253A1AE10045DA7E /* TrafficLight.swift in Sources */,
 				B418B91E253A1AE10045DA7E /* TrafficLightSwiftUI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
